@@ -1,0 +1,43 @@
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #a6a6a6 #f4f6f9;
+}
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: #f4f6f9;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #a6a6a6;
+    border-radius: 2.5px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+a {
+    color: unset;
+}
+
+
+.gap {
+    margin-bottom: 13px;
+}
+
+
+.scrollbar-none { 
+    scrollbar-width: none;
+    overflow: auto !important;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
